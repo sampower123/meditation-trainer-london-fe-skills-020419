@@ -1,1 +1,43 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <title>Meditation Trainer</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <!--Our first flex container-->
+  <div class="flex-container">
+    <header>
+      <h2>Meditation Trainer</h2>
+    </header>
+    <main>
+      <div class="item setWidth">
+        <h3 id="itemheader">Breath Log</h3>
+        <ol id="breathlog">
+          
+        <ol>
+      </div>
+      <div class="item setWidth">
+        <h3 id="itemheader">Stats</h3>
+        <div id="stats">
+          <p>Mean</p>
+          <p>Medium</p>
+          <p>Mode</p>
+          <p>Std. Dev.</p>
+        </div>
+      </div>
+    </main>
+      <div class="buttoninstructions">
+        <input type="button" id="buttonchange" name="answer" value="Start Inhale" onclick="changeText()">
+        <div class="instructions">
+          Instructions:
+          <br>
+          <br>1. Click 'Start Inhale'. 
+          <br>2. Once you've inhaled click the button again. 
+          <br>3. Start your exhale and click again when you're done!
+        </div>
+      </div>
+  </div>
+  </body>
+</html>
